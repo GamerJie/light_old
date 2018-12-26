@@ -1,0 +1,9 @@
+[submodule "extlibs/lua"]
+	path = extlibs/lua/lua
+	url = https://github.com/lua/lua/lua.git
+[submodule "extlibs/sfml"]
+	path = extlibs/sfml
+	url = https://github.com/sfml/sfml.git
+[submodule "extlibs/entt"]
+	path = extlibs/entt
+	url = https://github.com/skypjack/entt
