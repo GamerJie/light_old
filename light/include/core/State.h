@@ -1,15 +1,17 @@
-//
+﻿//
 // Created by Jie on 18.12.24.
 //
 
-#ifndef STAR_ENGINE_STATE_H
-#define STAR_ENGINE_STATE_H
+#ifndef light_state_h
+#define light_state_h
+
+#include "Light.h"
 
 namespace sf{
     class Event;
 }
 
-class State {
+class LightAPI State {
 public:
     virtual ~State() = default;
 
@@ -24,4 +26,4 @@ protected:
 };
 
 
-#endif //STAR_ENGINE_STATE_H
+#endif //light_state_h

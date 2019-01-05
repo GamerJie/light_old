@@ -1,9 +1,9 @@
-//
+﻿//
 // Created by Jie on 18.12.24.
 //
 
-#ifndef STAR_ENGINE_APPLICATION_H
-#define STAR_ENGINE_APPLICATION_H
+#ifndef light_application_h
+#define light_application_h
 
 #include <string>
 #include <iosfwd>
@@ -11,17 +11,14 @@
 #include <functional>
 
 #include "World.h"
+#include "entt/entt.hpp"
 #include "StateMachine.h"
 
 namespace sf {
     class Window;
 }
 
-namespace entt {
-    class dispatcher;
-}
-
-class Application {
+class LightAPI Application {
 public:
     virtual ~Application();
 
@@ -29,19 +26,18 @@ public:
 
 protected:
     Application();
+    Application(const std::string config);
 
 private:
-//    Application() = default;
-
     Application(const Application&) = delete;
     Application(Application&&) = delete;
 
 protected:
+    sf::Window* m_window;
     std::unique_ptr<World> m_world;
-    std::unique_ptr<sf::Window> m_window;
     std::unique_ptr<StateMachine> m_stateMachine;
     std::unique_ptr<entt::dispatcher> m_dispatcher;
 };
 
 
-#endif //STAR_ENGINE_APPLICATION_H
+#endif //light_application_h

@@ -1,9 +1,9 @@
-//
+﻿//
 // Created by Jie on 18.12.24.
 //
 
-#ifndef STAR_ENGINE_STATEMACHINE_H
-#define STAR_ENGINE_STATEMACHINE_H
+#ifndef light_state_machine_h
+#define light_state_machine_h
 
 #include <stack>
 #include <string>
@@ -16,7 +16,7 @@ namespace sf{
     class Event;
 }
 
-class StateMachine {
+class LightAPI StateMachine {
 public:
     StateMachine() = default;
     ~StateMachine() = default;
@@ -34,32 +34,18 @@ public:
     void push(const std::string& state);
     void pop();
 
-    template <typename S = State>
-    S* top();
+    State* top();
 
 
 private:
     std::stack<std::string> m_stack;
-    std::unordered_map<std::string, std::unique_ptr<State>> m_states;
+    std::unordered_map<std::string, State*> m_states;
 };
 
 template<typename State, typename ... Args>
 inline void StateMachine::CreateState(const std::string &id, Args &&... args) {
-    m_stack.emplace(id, std::make_unique<State>(std::forward<Args>(args)...));
-}
-
-template <typename S = State>
-inline S* StateMachine::top() {
-    S* outPut = nullptr;
-
-    if(!m_stack.empty() && !m_stack.empty()){
-        outPut = m_states[m_stack.top()].get();
-    }else{
-        // log error
-    }
-
-    return outPut;
+	m_stack.emplace(id, std::make_unique<State>(std::forward<Args>(args)...));
 }
 
 
-#endif //STAR_ENGINE_STATEMACHINE_H
+#endif //light_state_machine_h

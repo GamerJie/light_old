@@ -1,4 +1,4 @@
-//
+﻿//
 // Created by Jie on 18.12.24.
 //
 
@@ -41,4 +41,18 @@ void StateMachine::push(const std::string &state) {
 
 void StateMachine::pop() {
     m_stack.pop();
+}
+
+
+inline State* StateMachine::top() {
+	State* outPut = nullptr;
+
+	if (!m_stack.empty() && !m_stack.empty()) {
+		outPut = m_states[m_stack.top()];
+	}
+	else {
+		// log error
+	}
+
+	return outPut;
 }

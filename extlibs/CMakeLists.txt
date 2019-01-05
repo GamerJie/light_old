@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
-
-add_subdirectory(sfml sfml)
+project(extlibs)
 
 add_subdirectory(lua lua)
+add_subdirectory(sfml sfml)
+add_subdirectory(box2d box2d)
 
-
-set(SFML_Dir "${CMAKE_SOURCE_DIR}/extlibs/sfml/include" CACHE INTERNAL "SFML include location")
-set(LUA_Dir "${CMAKE_SOURCE_DIR}/extlibs/lua/lua" CACHE INTERNAL "Lua include location")
-set(ENTT_Dir "${CMAKE_SOURCE_DIR}/extlibs/entt/src" CACHE INTERNAL "Entt include location")
+set(LUA_ROOT "${CMAKE_SOURCE_DIR}/extlibs/Lua/src" CACHE INTERNAL "Lua source location" )
+set(BOX2D_INCLUDE "${CMAKE_SOURCE_DIR}/extlibs/Box2D/Include" CACHE INTERNAL "Box2D include location" )

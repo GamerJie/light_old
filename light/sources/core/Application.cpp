@@ -1,21 +1,22 @@
-//
+﻿//
 // Created by Jie on 18.12.24.
 //
 
 #include <SFML/Window.hpp>
-#include <entt/signal/dispatcher.hpp>
 
 #include "core/Application.h"
+#include "entt/signal/dispatcher.hpp"
 
 Application::Application() {
-
-    m_window = std::make_unique<sf::Window>(sf::VideoMode(800, 600), "Application");
+    m_window = new sf::Window(sf::VideoMode(800, 600), "light");
 
     m_stateMachine = std::make_unique<StateMachine>();
 }
 
 Application::~Application() {
     m_window->close();
+    m_window = NULL;
+    delete(m_window);
 }
 
 bool Application::run() {
@@ -36,7 +37,7 @@ bool Application::run() {
                 break;
         }
 
-        m_stateMachine->update(0.2d);
+        m_stateMachine->update(0.2f);
 
         // m_window->clear();
 
@@ -46,4 +47,6 @@ bool Application::run() {
     }
 
     m_stateMachine->unload();
+
+	return true;
 }

@@ -1,24 +1,23 @@
-cmake_minimum_required(VERSION 3.10)
+﻿cmake_minimum_required(VERSION 3.10)
 project(light)
 
 set(CMAKE_CXX_STANDARD 17)
-
-
-message(${ENTT_Dir})
+set(LIGHT_INCLUDE "${CMAKE_SOURCE_DIR}/light/include" CACHE INTERNAL "light include location" )
 
 include_directories(include)
-include_directories(${ENTT_Dir})
-include_directories(${LUA_Dir})
-include_directories(${SFML_Dir})
+include_directories(${LUA_ROOT})
+
+message("${LUA_ROOT}")
 
 file(GLOB core sources/core/*)
-file(GLOB sources sources/*.cpp)
 
-add_library(light STATIC ${core} ${src})
+add_library(light SHARED ${core})
 
-target_link_libraries(light
+target_link_libraries(light lualib Box2D
         sfml-audio
         sfml-system
         sfml-window
         sfml-network
         sfml-graphics)
+		
+set(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)

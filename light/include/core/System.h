@@ -1,17 +1,15 @@
-//
+﻿//
 // Created by Jie on 18.12.26.
 //
 
-#ifndef PROJECT_SYSTEM_H
-#define PROJECT_SYSTEM_H
+#ifndef light_system_h
+#define light_system_h
+
+#include <entt/entt.hpp>
 
 #include "World.h"
 
-namespace entt {
-    class DefaultRegistry;
-}
-
-class System {
+class LightAPI System {
     friend class World;
 
 public:
@@ -20,8 +18,8 @@ public:
 protected:
     System() = default;
 
-    virtual void update(const double dt, entt::DefaultRegistry& registry) = 0;
+    virtual void update(const double dt, entt::Registry<>& registry) = 0;
 
 };
 
-#endif //PROJECT_SYSTEM_H
+#endif //light_system_h
