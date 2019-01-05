@@ -10,13 +10,9 @@
 #include <memory>
 #include <functional>
 
-#include "World.h"
-#include "entt/entt.hpp"
-#include "StateMachine.h"
+#include "spdlog/spdlog.h"
+#include "ServiceLocator.h"
 
-namespace sf {
-    class Window;
-}
 
 class LightAPI Application {
 public:
@@ -33,10 +29,12 @@ private:
     Application(Application&&) = delete;
 
 protected:
-    sf::Window* m_window;
     std::unique_ptr<World> m_world;
+    std::unique_ptr<Window> m_window;
     std::unique_ptr<StateMachine> m_stateMachine;
     std::unique_ptr<entt::dispatcher> m_dispatcher;
+
+    std::shared_ptr<spdlog::logger> console;
 };
 
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="Project" targetName="sfml-network" />
       <config projectName="Project" targetName="sfml-main" />
@@ -18,45 +18,40 @@
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug-VS" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Visual Studio" GENERATION_DIR="bin/cmake" />
+      <configuration PROFILE_NAME="Default" GENERATION_DIR="bin/cmake/mingw" />
+      <configuration PROFILE_NAME="Debug-VS" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Visual Studio" GENERATION_DIR="bin/cmake/vs" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e5cbc7c-5532-4bd1-8d96-be7d0e3c36b8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extlibs/SFML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/light/include/core/ServiceLocator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/light/include/fs/FileSystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/light/include/graphics/Window.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/light/include/systems/RenderSystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/light/sources/fs/FileSystem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/light/sources/graphics/Window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/light/sources/systems/RenderSystem.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/star engine.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/include/MainGame.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/sources/MainGame.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/sources/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extlibs/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extlibs/entt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extlibs/lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extlibs/sfml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/include/core/Application.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/include/core/State.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/include/core/StateMachine.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/include/core/System.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/include/core/World.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/sources/core/Application.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/sources/core/StateMachine.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/sources/core/World.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/sources/MainGame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/editor/sources/MainGame.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extlibs/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/extlibs/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extlibs/SFML" beforeDir="false" afterPath="$PROJECT_DIR$/extlibs/SFML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extlibs/SFML/cmake/toolchains/iOS.toolchain.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/extlibs/SFML/cmake/toolchains/iOS.toolchain.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/light/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/include/core/Application.h" beforeDir="false" afterPath="$PROJECT_DIR$/light/include/core/Application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/include/core/Light.h" beforeDir="false" afterPath="$PROJECT_DIR$/light/include/Light.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/include/core/System.h" beforeDir="false" afterPath="$PROJECT_DIR$/light/include/core/System.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/include/core/World.h" beforeDir="false" afterPath="$PROJECT_DIR$/light/include/core/World.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/sources/core/Application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/light/sources/core/Application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/sources/core/World.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/light/sources/core/World.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
-    <ignored path="$PROJECT_DIR$/bin/cmake/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-default/" />
+    <ignored path="$PROJECT_DIR$/bin/cmake/vs/" />
+    <ignored path="$PROJECT_DIR$/bin/cmake/mingw/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,11 +60,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-VS" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.h" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/light/include/core/Application.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="348">
+              <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
               <folding>
                 <element signature="e#95#112#0" expanded="true" />
               </folding>
@@ -77,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.cpp" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/light/sources/core/Application.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="399">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="e#38#64#0" expanded="true" />
               </folding>
@@ -89,41 +84,83 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editor/sources/main.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/light/sources/core/World.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="185">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/light/include/core/System.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="64" />
               <folding>
-                <element signature="e#55#123#0" expanded="true" />
+                <element signature="e#85#103#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainGame.h" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/light/include/core/World.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+              <folding>
+                <element signature="e#83#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editor/include/MainGame.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="209">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainGame.cpp" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editor/sources/MainGame.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="171">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <element signature="e#38#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Window.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extlibs/SFML/include/SFML/Window/Window.hpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/light/sources/systems/RenderSystem.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="57" column="28" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="28" />
+            <state relative-caret-position="171">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/light/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/light/include/systems/RenderSystem.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -145,6 +182,9 @@
       <find>ext</find>
       <find>luaconf.h</find>
       <find>add_libr</find>
+      <find>for_each</find>
+      <find>default_registry</find>
+      <find>error</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,31 +214,39 @@
         <option value="$PROJECT_DIR$/light/include/core/State.h" />
         <option value="$PROJECT_DIR$/extlibs/sol2/sol.hpp" />
         <option value="$PROJECT_DIR$/light/include/lua.hpp" />
-        <option value="$PROJECT_DIR$/light/include/core/System.h" />
-        <option value="$PROJECT_DIR$/light/sources/core/World.cpp" />
         <option value="$PROJECT_DIR$/tester/main.cpp" />
         <option value="$PROJECT_DIR$/tester/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/light/include/core/World.h" />
-        <option value="$PROJECT_DIR$/extlibs/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/extlibs/Lua/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/light/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/editor/sources/main.cpp" />
         <option value="$PROJECT_DIR$/editor/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/light/include/sol2/sol.hpp" />
-        <option value="$PROJECT_DIR$/editor/include/MainGame.h" />
-        <option value="$PROJECT_DIR$/editor/sources/MainGame.cpp" />
-        <option value="$PROJECT_DIR$/light/sources/core/Application.cpp" />
+        <option value="$PROJECT_DIR$/extlibs/ImGui/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/light/include/Graphics.h" />
+        <option value="$PROJECT_DIR$/light/include/ui/imgui-SFML.h" />
+        <option value="$PROJECT_DIR$/light/sources/ui/imgui-SFML.cpp" />
+        <option value="$PROJECT_DIR$/extlibs/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/light/include/graphics/Window.h" />
+        <option value="$PROJECT_DIR$/light/include/core/ServiceLocator.h" />
+        <option value="$PROJECT_DIR$/light/sources/graphics/Window.cpp" />
+        <option value="$PROJECT_DIR$/light/include/filesystem/FileSystem.h" />
+        <option value="$PROJECT_DIR$/light/sources/filesystem/FileSystem.cpp" />
+        <option value="$PROJECT_DIR$/light/include/fs/FileSystem.h" />
+        <option value="$PROJECT_DIR$/light/sources/fs/FileSystem.cpp" />
         <option value="$PROJECT_DIR$/light/include/core/Application.h" />
+        <option value="$PROJECT_DIR$/editor/include/MainGame.h" />
+        <option value="$PROJECT_DIR$/light/include/core/World.h" />
+        <option value="$PROJECT_DIR$/light/include/core/System.h" />
+        <option value="$PROJECT_DIR$/light/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/editor/sources/MainGame.cpp" />
+        <option value="$PROJECT_DIR$/light/include/systems/RenderSystem.h" />
+        <option value="$PROJECT_DIR$/light/sources/systems/RenderSystem.cpp" />
+        <option value="$PROJECT_DIR$/light/sources/core/Application.cpp" />
+        <option value="$PROJECT_DIR$/light/sources/core/World.cpp" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
@@ -229,12 +277,6 @@
               <item name="light" type="b2602c69:ProjectViewProjectNode" />
               <item name="light" type="462c0819:PsiDirectoryNode" />
               <item name="editor" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="light" type="b2602c69:ProjectViewProjectNode" />
-              <item name="light" type="462c0819:PsiDirectoryNode" />
-              <item name="editor" type="462c0819:PsiDirectoryNode" />
               <item name="sources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,6 +289,13 @@
               <item name="light" type="462c0819:PsiDirectoryNode" />
               <item name="light" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="light" type="b2602c69:ProjectViewProjectNode" />
+              <item name="light" type="462c0819:PsiDirectoryNode" />
+              <item name="light" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="light" type="b2602c69:ProjectViewProjectNode" />
@@ -270,11 +319,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CPP\light\light\include" />
       <recent name="D:\CPP\light\light\sources" />
       <recent name="D:\CPP\light\light\include\core" />
       <recent name="D:\CPP\light\demo" />
       <recent name="D:\CPP\light\light" />
-      <recent name="D:\CPP\star engine\src\core" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -290,19 +339,71 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.editor">
-    <configuration name="Box2D" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Box2D" CONFIG_NAME="Debug-VS" />
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug-VS" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="star_engine" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="editor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="editor" CONFIG_NAME="Debug-VS" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="editor" />
-    <configuration name="light" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="light" CONFIG_NAME="Debug-VS" />
-    <configuration name="lua" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="lua" CONFIG_NAME="Debug-VS" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="lua" />
-    <configuration name="luac" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="luac" CONFIG_NAME="Debug-VS" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="luac" />
-    <configuration name="lualib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="lualib" CONFIG_NAME="Debug-VS" />
-    <configuration name="sfml-audio" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml-audio" CONFIG_NAME="Debug-VS" />
-    <configuration name="sfml-graphics" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml-graphics" CONFIG_NAME="Debug-VS" />
-    <configuration name="sfml-main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml-main" CONFIG_NAME="Debug-VS" />
-    <configuration name="sfml-network" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml-network" CONFIG_NAME="Debug-VS" />
-    <configuration name="sfml-system" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml-system" CONFIG_NAME="Debug-VS" />
-    <configuration name="sfml-window" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml-window" CONFIG_NAME="Debug-VS" />
+    <configuration name="Box2D" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Box2D" CONFIG_NAME="Debug-VS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug-VS" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="star_engine" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="editor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="editor" CONFIG_NAME="Debug-VS" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="editor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="light" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="light" CONFIG_NAME="Debug-VS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lua" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="lua" CONFIG_NAME="Debug-VS" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="lua">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="luac" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="luac" CONFIG_NAME="Debug-VS" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="luac">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lualib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="lualib" CONFIG_NAME="Debug-VS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-audio" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml-audio" CONFIG_NAME="Debug-VS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-graphics" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml-graphics" CONFIG_NAME="Debug-VS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml-main" CONFIG_NAME="Debug-VS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-network" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml-network" CONFIG_NAME="Debug-VS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-system" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml-system" CONFIG_NAME="Debug-VS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-window" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml-window" CONFIG_NAME="Debug-VS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.editor" />
@@ -334,165 +435,47 @@
       <workItem from="1546422352284" duration="1834000" />
       <workItem from="1546501599023" duration="9134000" />
       <workItem from="1546604573573" duration="982000" />
-      <workItem from="1546665320608" duration="3131000" />
+      <workItem from="1546665320608" duration="13511000" />
+      <workItem from="1546683473023" duration="4998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26912000" />
+    <option name="totallyTimeSpent" value="42290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17437252" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32928476" />
-      <window_info anchor="bottom" id="CMake" order="7" weight="0.32928476" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1769437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928476" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32841823" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CMake" order="7" weight="0.32841823" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32841823" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32928476" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/light/include/core/World.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/extlibs/entt/signal/dispatcher.hpp" />
-    <entry file="file://$PROJECT_DIR$/demo/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/extlibs/SFML/cmake/Macros.cmake" />
-    <entry file="file://$PROJECT_DIR$/.gitmodules">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/sources/MainGame.cpp" />
-    <entry file="file://$PROJECT_DIR$/demo/CMakeLists.txt" />
-    <entry file="file://C:/Program Files/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/unique_ptr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="156" column="10" selection-start-line="156" selection-start-column="10" selection-end-line="156" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/unordered_map.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="921" column="6" selection-start-line="921" selection-start-column="6" selection-end-line="921" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/light/sources/core/StateMachine.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/light/sources/core/State.cpp" />
-    <entry file="file://$PROJECT_DIR$/demo/sources/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/demo/include/MainGame.h" />
-    <entry file="file://$PROJECT_DIR$/extlibs/entt/src/entt/entity/registry.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extlibs/entt/src/entt/entity/utility.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extlibs/sol2/sol.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="1902" column="68" selection-start-line="1902" selection-start-column="68" selection-end-line="1902" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/light/include/core/Light.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/light/include/core/StateMachine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/light/include/core/System.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/light/sources/lua.hpp" />
-    <entry file="file://$PROJECT_DIR$/light/include/core/State.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/light/sources/core/World.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extlibs/SFML/src/SFML/Window/VideoMode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="46" column="93" lean-forward="true" selection-start-line="46" selection-start-column="93" selection-end-line="46" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extlibs/lua/lapi.c" />
     <entry file="file://$PROJECT_DIR$/extlibs/lua/lua.h" />
-    <entry file="file://$PROJECT_DIR$/extlibs/sol2/single/sol/sol.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36176">
-          <caret line="1904" selection-start-line="1904" selection-end-line="1904" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extlibs/Lua/src/luaconf.h.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/extlibs/sol2/single/sol/sol.hpp" />
+    <entry file="file://$PROJECT_DIR$/extlibs/Lua/src/luaconf.h.in" />
     <entry file="file://$PROJECT_DIR$/extlibs/Lua/src/lua.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -500,36 +483,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extlibs/Lua/cmake/FindLua.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tester/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tester/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/extlibs/Lua/cmake/FindLua.cmake" />
+    <entry file="file://$PROJECT_DIR$/tester/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/tester/CMakeLists.txt" />
     <entry file="file://E:/Github/vcpkg/scripts/buildsystems/vcpkg.cmake">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/light/include/core/World.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -557,20 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extlibs/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/editor/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -578,24 +524,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/light/include/sol2/sol.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="1904" column="22" selection-start-line="1904" selection-start-column="22" selection-end-line="1904" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/light/include/sol2/lua/lua.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/light/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -613,6 +545,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/extlibs/ImGui/sfml/imgui-SFML.h" />
+    <entry file="file://$PROJECT_DIR$/extlibs/ImGui/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/light/include/Graphics.h" />
+    <entry file="file://$PROJECT_DIR$/light/include/Light.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extlibs/SFML/src/SFML/Window/Window.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="184" column="13" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/sources/ui/imgui-SFML.cpp" />
+    <entry file="file://$PROJECT_DIR$/extlibs/SFML/include/SFML/Graphics/RenderWindow.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-356">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/include/ui/imgui-SFML.h" />
+    <entry file="file://$PROJECT_DIR$/extlibs/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/include/graphics/Window.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="e#83#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/sources/core/StateMachine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/include/core/StateMachine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extlibs/SFML/include/SFML/System.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/filesystem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="738" column="6" selection-start-line="738" selection-start-column="6" selection-end-line="738" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/sources/graphics/Window.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#36#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/include/core/State.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/include/fs/FileSystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#93#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/include/sol2/sol.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="20023" column="54" lean-forward="true" selection-start-line="20023" selection-start-column="54" selection-end-line="20023" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/include/spdlog/sinks/stdout_color_sinks.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/editor/sources/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -623,37 +674,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/editor/sources/MainGame.cpp">
+    <entry file="file://$PROJECT_DIR$/light/include/entt/core/hashed_string.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="133">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/editor/include/MainGame.h">
+    <entry file="file://$PROJECT_DIR$/light/sources/fs/FileSystem.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/light/sources/core/Application.cpp">
+    <entry file="file://$PROJECT_DIR$/light/include/core/ServiceLocator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#38#64#0" expanded="true" />
+            <element signature="e#101#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/include/entt/entt.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/light/include/core/Application.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="348">
+          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
           <folding>
             <element signature="e#95#112#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/include/MainGame.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/include/entt/entity/registry.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="14" />
+          <folding>
+            <element signature="e#972#1005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/include/core/System.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="64" />
+          <folding>
+            <element signature="e#85#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/include/core/World.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <element signature="e#83#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/sources/MainGame.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="e#38#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/include/systems/RenderSystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/sources/systems/RenderSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/sources/core/Application.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#38#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light/sources/core/World.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
     </entry>

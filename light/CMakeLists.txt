@@ -6,12 +6,16 @@ set(LIGHT_INCLUDE "${CMAKE_SOURCE_DIR}/light/include" CACHE INTERNAL "light incl
 
 include_directories(include)
 include_directories(${LUA_ROOT})
+include_directories(${BOX2D_INCLUDE})
 
 message("${LUA_ROOT}")
 
+file(GLOB fs sources/fs/*)
 file(GLOB core sources/core/*)
+file(GLOB systems sources/systems/*)
+file(GLOB graphics sources/graphics/*)
 
-add_library(light SHARED ${core})
+add_library(light SHARED ${core} ${graphics} ${systems})
 
 target_link_libraries(light lualib Box2D
         sfml-audio
