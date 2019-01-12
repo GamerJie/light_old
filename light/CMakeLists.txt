@@ -15,7 +15,7 @@ file(GLOB core sources/core/*)
 file(GLOB systems sources/systems/*)
 file(GLOB graphics sources/graphics/*)
 
-add_library(light SHARED ${core} ${graphics} ${systems})
+add_library(light SHARED ${core} ${graphics} ${systems} ${fs})
 
 target_link_libraries(light lualib Box2D
         sfml-audio

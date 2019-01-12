@@ -9,10 +9,12 @@
 #include <vector>
 
 #include "Light.h"
+#include "spdlog/spdlog.h"
+
 
 class LightAPI FileSystem {
 public:
-    FileSystem() = default;
+    FileSystem();
 
     explicit FileSystem(const std::vector<std::string>& path);
     ~FileSystem() noexcept;
@@ -25,7 +27,9 @@ public:
 
 
 private:
+    std::string m_home;
     std::vector<std::string> m_pathList;
+    std::shared_ptr<spdlog::logger> console;
 };
 
 #endif //light_file_system_h

@@ -6,6 +6,6 @@
 
 #include "MainGame.h"
 
-MainGame::MainGame() {
+MainGame::MainGame(const std::string config) :Application(config) {
     m_world->registerSystem<RenderSystem>();
 }

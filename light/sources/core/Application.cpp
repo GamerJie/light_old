@@ -4,22 +4,32 @@
 
 #include <SFML/Window.hpp>
 
+#include "nlohmann/json.hpp"
 #include "core/Application.h"
 #include "entt/signal/dispatcher.hpp"
 
 
-Application::Application() {
+Application::Application(const std::string configPath) {
     console = spdlog::stdout_color_mt("Application");
+
+    Locator::fileSystem = new FileSystem();
+//    auto config = m_fileSystem.openAsString(configPath);
+//    auto conf = nlohmann::json::parse(config);
+
+    auto width = 800; // conf["width"];
+    auto height = 600; // conf["height"];
 
     m_world = std::make_unique<World>();
     m_stateMachine = std::make_unique<StateMachine>();
-    m_window = std::make_unique<Window>(800, 600, "light");
+    m_window = std::make_unique<Window>(width, height, "light");
     m_dispatcher = std::make_unique<entt::dispatcher>();
 
     Locator::world = m_world.get();
     Locator::window = m_window.get();
     Locator::stateMachine = m_stateMachine.get();
     Locator::dispatcher = m_dispatcher.get();
+
+
 
     console->info("Application init over.");
 }

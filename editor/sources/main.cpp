@@ -10,7 +10,7 @@
 
 int main(int argc, char* argv[]) {
 
-    MainGame game;
+    MainGame game("config.json");
 
     game.run();
 

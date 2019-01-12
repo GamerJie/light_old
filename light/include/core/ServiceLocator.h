@@ -8,6 +8,7 @@
 #include "World.h"
 #include "entt/entt.hpp"
 #include "StateMachine.h"
+#include "fs/FileSystem.h"
 #include "graphics/Window.h"
 
 class Locator {
@@ -19,6 +20,7 @@ public:
     static inline Window* window;
     static inline StateMachine* stateMachine;
     static inline entt::dispatcher* dispatcher;
+    static inline FileSystem* fileSystem;
 };
 
 #endif //light_service_locator_h

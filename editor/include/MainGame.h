@@ -9,7 +9,7 @@
 
 class MainGame : public Application {
 public:
-    MainGame();
+    MainGame(const std::string config);
 };
 
 #endif //PROJECT_MAINGAME_H

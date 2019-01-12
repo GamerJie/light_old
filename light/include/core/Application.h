@@ -10,6 +10,8 @@
 #include <memory>
 #include <functional>
 
+#include "sol2/sol.hpp"
+#include "fs/FileSystem.h"
 #include "spdlog/spdlog.h"
 #include "ServiceLocator.h"
 
@@ -21,7 +23,7 @@ public:
     virtual bool run() final;
 
 protected:
-    Application();
+    Application() = default;
     Application(const std::string config);
 
 private:

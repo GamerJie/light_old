@@ -31,8 +31,8 @@ entt::registry<>::entity_type World::createEntity(const std::string& script) {
 
     }
 
-    auto tags = components["tags"];
-    if(tags.valid()){
+    auto tag = components["tags"];
+    if(tag.valid()){
         sol::table tags = components.get<sol::table>("tags");
         tags.for_each([&](std::pair<sol::object, sol::object> pair){
             m_tagAssign[entt::hashed_string(pair.first.as<const char*>())](entity, pair.second.as<sol::table>());
