@@ -5,4 +5,5 @@ sample ecs mode for game.use lua to write system and components.
  [SFML](https://github.com/SFML/SFML)<br />
  [Sol2](https://github.com/ThePhD/sol2)<br />
  [Entt](https://github.com/skypjack/entt)<br />
+ [spdlog](https://github.com/gabime/spdlog)<br />
  [nlohmann json](https://github.com/nlohmann/json)<br />
