@@ -10,7 +10,7 @@ function xxxSystem.init()
 	return { some components name }
 end
 
-function xxxSystem.update(dt, entity_list)
+function xxxSystem.update(dt, component_data_list)
     -- do some logic
 end
 
