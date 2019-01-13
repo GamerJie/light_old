@@ -33,8 +33,10 @@ public:
 	template<typename Component>
 	void registerComponent(Component component);
 
-	template<typename System, typename... Args>
-	void registerSystem(Args&&... args);
+	template<typename System>
+	void registerSystem();
+
+	void registerLuaSystem(const std::string fileName);
 
 	template<typename System>
 	System* getSystem();
@@ -42,8 +44,9 @@ public:
 	template<typename System>
 	void remove();
 
+	void removeLua(const std::string systemName);
+
 public:
-    sol::state m_lua;
     entt::registry<> m_registry;
 
 private:
@@ -53,7 +56,7 @@ private:
 	std::unordered_map<entt::hashed_string::hash_type, std::function<void(const entt::registry<>::entity_type, \
 	const sol::table&)>> m_componentAssign;
 
-	std::unordered_map<std::type_index, std::unique_ptr<System>> m_systems;
+	std::unordered_map<std::string, std::unique_ptr<System>> m_systems;
 	std::shared_ptr<spdlog::logger> console;
 };
 
@@ -85,31 +88,33 @@ inline void World::registerComponent(Component component) {
 	}
 }
 
-
-template<typename System, typename... Args>
-inline void World::registerSystem(Args&&... args){
+template<typename System>
+inline void World::registerSystem(){
 	std::type_index t(typeid(System));
+	std::string key(t.name());
 
-	if(m_systems.find(t) != m_systems.end()){
+	if(m_systems.find(key) != m_systems.end()){
 		// todo
 		// log try to register repeat system
 	}else
-		m_systems[t] = std::make_unique<System>(std::forward<Args>(args)...);
+		m_systems[key] = std::make_unique<System>();
+		// m_systems[t] = std::make_unique<System>(std::forward<Args>(args)...);
 };
 
 
 template<typename System>
 inline System* World::getSystem(){
-	return dynamic_cast<System*>(m_systems[typeid(System)].get());
+	return dynamic_cast<System*>(m_systems[typeid(System).name()].get());
 }
 
 template<typename System>
 void World::remove() {
 	std::type_index t(typeid(System));
+	std::string key(t.name());
 
-	if(m_systems.find(t) != m_systems.end()){
-		m_systems[t].reset();
-		m_systems.erase(t);
+	if(m_systems.find(key) != m_systems.end()){
+		m_systems[key].reset();
+		m_systems.erase(key);
 	}else{
 		// todo
 		// log try to remove none-exit system

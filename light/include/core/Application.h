@@ -31,11 +31,12 @@ private:
     Application(Application&&) = delete;
 
 protected:
+    sol::state m_lua;
     std::unique_ptr<World> m_world;
     std::unique_ptr<Window> m_window;
     std::unique_ptr<StateMachine> m_stateMachine;
     std::unique_ptr<entt::dispatcher> m_dispatcher;
-
+	std::unique_ptr<FileSystem> m_fileSystem;
     std::shared_ptr<spdlog::logger> console;
 };
 

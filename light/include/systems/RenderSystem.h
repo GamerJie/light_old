@@ -11,7 +11,7 @@ class LightAPI RenderSystem: public System {
 public:
     RenderSystem();
 
-private:
+protected:
     void update(const int dt, entt::registry<>& registry) override;
 };
 

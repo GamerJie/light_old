@@ -1,25 +1,11 @@
 # Light lua API
 Here is the lua api of light.
-## System
-using module :
-```lua
-require("light.system")
-```
-### data type
-```
-entity_list     array of entity
-```
-### golbal functions
-
 ## Light
-using module :
-```lua
-require("light")
-```
+light base api
 ### data type
 ```
 ```
-### global functions
+### function
 ```lua
 function get_world() return world               -- return current world
 
@@ -33,17 +19,14 @@ function remove_component(entity, component)    -- remove a component from entit
 
 ```
 ## Json
-using module :
-```lua
-require("json")
-```
+json module use form [nlohmann json](https://github.com/nlohmann/json)
 ### data type
 ```lua
 json     json object
     function dump() return json_table           -- return a table for json file
     function to_string() return json_string     -- return string of json object
 ```
-### golbal functions
+### function
 ```lua
 function to_json(json)          -- convert json (json string or lua table) to json object
 ```

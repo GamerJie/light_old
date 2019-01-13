@@ -19,3 +19,5 @@ add_definitions(-D_HAS_AUTO_PTR_ETC)
 add_subdirectory(extlibs)
 add_subdirectory(light light)
 add_subdirectory(editor editor)
+
+add_subdirectory(test test)

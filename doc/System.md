@@ -3,14 +3,16 @@
 lua
 ## Formart
 ```lua
-require "light.system"
+local xxxSystem
 
-function init()
-    -- to register need listen components
+function xxxSystem.init()
+    -- return register need listen components
+	return { some components name }
 end
 
-function update(entity_list, dt)
+function xxxSystem.update(dt, entity_list)
     -- do some logic
 end
 
+return xxxSystem
 ```
